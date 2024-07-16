@@ -12,7 +12,10 @@
 
         <!-- Styles -->
         <!-- @vite(['resources/css/app.css', 'resources/js/app.js']) -->
-        <link rel="stylesheet" href="{{ mix('css/app.css') }}">
+        <!-- <link rel="stylesheet" href="{{ mix('css/app.css') }}"> -->
+        <link rel="stylesheet" href="{{ vite_asset('resources/css/app.css') }}">
+           <script src="{{ vite_asset('resources/js/app.js') }}"></script>
+
     </head>
     <body class="antialiased font-sans">
         <div class="bg-gray-50 text-black/50 dark:bg-black dark:text-white/50">
